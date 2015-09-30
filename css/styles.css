@@ -1,48 +1,62 @@
-@charset "UTF-8";
-/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500);
 
+html {
+font-size: 10px;
+}
 body {
 background-color:#ffffff;
 margin:0;
 padding:0;
-font-family:"Century Gothic", Century, sans-serif;
-color:#666666;;
+font-family:'Poppins', Century Gothic, sans-serif;
+font-size: 1.2em;
+color:#444;
+min-width: 40em;
+width: 80%;
+max-width: 140em;
+margin-left: auto;
+margin-right: auto;
+height: auto;
 }
 
-body.noOverflow{
+.header {
+padding: 2em 2em 2em 2em;
+}
+
+.noOverflow{
 overflow:hidden;
 }
 
-div#splash{
+#splash{
 margin: 24px;
 }
 
-div#splashImage{
+#splashImage{
 position: absolute;
 left: 264px;
 top:19px;
 width:100%;
 }
 
-div#splashImage img{
+#splashImage img{
 width: 50%;
 }
 
-div#splash ul{
+#splash ul{
 list-style-type:none;
 padding: 0;
-margin: 12px 24px;
+margin: 1.2em 2.4em;
 position:absolute;
 left:0;
 top:0;
 text-align:right;
-font-size:24px;
-letter-spacing:.1em;
+font-size:2.4em;
 }
 
-div#wrapper{
-padding:30px 24px 24px 24px;
+.wrapper{
+padding:3em 2.4em 2.4em 2.4em;
 min-width:650px;
+max-width:1200px;
+margin: auto;
 }
 
 a:link{
@@ -84,12 +98,12 @@ margin: 0 0 12px 0;
 }
 
 /*Header Styles*/
-div#headerLeft{
+.headerLeft{
 width:268px;
 float:left;
-margin:-1px 36px 0 0;
-font-family:"Century Gothic", Century, Sans-serif;
-font-size:24px;
+margin:0 2em 0 0;
+font-family:"Poppins", Century Gothic, Sans-serif;
+font-size:2.4em;
 letter-spacing:.1em;
 color:#A19D95;
 text-align:right;
@@ -97,16 +111,14 @@ position: relative;
 left: 6px;
 }
 
-div#headerLeft a{
-color:#A19D95;
-}
-
-ul.navigation{ /*also for nav in body left column*/
-font-family:"Century Gothic", Century, Sans-serif;
-font-size:14px;
+div#header ul.navigation{ /*also for nav in body left column*/
+font-family:"Poppins", Century Gothic, Sans-serif;
+font-size:1.9em;
 padding:0;
 margin:0;
 list-style-type:none;
+font-variant: small-caps;
+text-transform: lowercase;
 }
 
 div#header ul.navigation{
@@ -116,6 +128,8 @@ margin:8px 0 0 0;
 
 div#header ul.navigation li{
 float:left;
+padding: 0;
+margin: 0;
 }
 
 a#currentSection{
@@ -190,7 +204,7 @@ display:block;
 }
 
 h1{
-font-family:"Century Gothic", Century, sans-serif;
+font-family:"Poppins", Century Gothic, sans-serif;
 font-size:24px;
 font-weight:normal;
 margin: -2px 0 12px 0;
@@ -199,7 +213,7 @@ clear: both;
 }
 
 h2{
-font-family:"Century Gothic", Century, sans-serif;
+font-family:"Poppins", Century Gothic, sans-serif;
 font-size:18px;
 font-weight:normal;
 margin: 0;
@@ -262,7 +276,7 @@ text-align:right;
 vertical-align:bottom;
 padding-right: 36px;
 width: 100px;
-font-family:"Century Gothic", Century, sans-serif;
+font-family:"Poppins", Century Gothic, sans-serif;
 font-size: 17px;
 color:#666666;
 }
@@ -276,7 +290,7 @@ padding-left: 36px;
 table#films td:last-child p:first-child{ /*film name*/
 margin: 0;
 padding: 0;
-font-family:"Century Gothic", Century, sans-serif;
+font-family:"Poppins", Century Gothic, sans-serif;
 font-size: 20px;
 color:#743C28;
 }
@@ -284,7 +298,7 @@ color:#743C28;
 table#films td:last-child p:last-child{ /*film info*/
 margin: 0;
 padding: 0;
-font-family:"Century Gothic", Century, sans-serif;
+font-family:"Poppins", Century Gothic, sans-serif;
 font-size:14px;
 }
 
@@ -312,7 +326,7 @@ height:120px;
 }
 
 ul#frames li p{
-font-family:"Century Gothic", Century, sans-serif;
+font-family:"Poppins", Century Gothic, sans-serif;
 text-align:left;
 font-size:15px;
 line-height:16px;
@@ -398,7 +412,7 @@ float:left;
 }
 
 p#sectionTitle{
-font-family:"Century Gothic", Century, sans-serif;
+font-family:"Poppins", Century Gothic, sans-serif;
 font-size:17px;
 font-weight:bold;
 color:#743C28;
@@ -410,7 +424,7 @@ left:4px;
 }
 
 p.pullQuote{
-font-family:"Century Gothic", Century, sans-serif;
+font-family:"Poppins", Century Gothic, sans-serif;
 font-size:17px;
 color:#666666;
 margin: 60px 0 0 0;
@@ -438,3 +452,4 @@ clear:both;
 width:100%;
 text-align:center;
 }
+
