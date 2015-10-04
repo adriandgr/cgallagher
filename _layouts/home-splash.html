@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+<link rel="stylesheet" type="text/css" href="{{ "/css/scaler.css" | prepend: site.baseurl }}" />
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta http-equiv="imagetoolbar" content="no" /> <!--Prevent IEs anoying imgage toolbar-->
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<link href='https://fonts.googleapis.com/css?family=Poppins:400,500' rel='stylesheet' type='text/css'>
+
+<style type="text/css">
+
+.box{
+position: fixed;
+padding-left: 50px;
+padding-top: 20px;
+z-index: 3;
+}
+
+.space{
+height:300px;
+border:2px;
+
+}
+    
+</style>
+	
+</head>
+<body>
+<div id="holder">
+<div><a href="http://www.royarden.com/defaultee.shtml"><img src="splash/randum.php" /></a></div>
+</div>
+
+
+
+<div class="box">
+<a href="http://www.royarden.com/defaultee.shtml"/>
+<img src="media/images/royarden-splash.png" alt="Roy Arden" width="432" height="143"/>
+<div class="space"></div>
+<img src="media/images/enter.png" alt="enter" width="168" height="57"/></a>
+</div>
+
+
+<script type="text/javascript" src="javascript/scaler.js"></script>
+</body>
+</html>
