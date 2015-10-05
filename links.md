@@ -1,11 +1,10 @@
 ---
 layout: page
-title: links
+title: Links
 permalink: /links/
 ---
 
 
-LINKS
 
 - Foxglove Films
 - University of British Columbia Film Department
