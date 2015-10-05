@@ -115,7 +115,8 @@ div#header ul.navigation{ /*also for nav in body left column*/
 font-family:"Poppins", Century Gothic, Sans-serif;
 font-size:1.9em;
 padding:0;
-margin:0;
+margin:-1px 0 0 0;
+letter-spacing: 0.05em;
 list-style-type:none;
 font-variant: small-caps;
 text-transform: lowercase;
